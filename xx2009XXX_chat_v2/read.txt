@@ -1,0 +1,68 @@
+聊天室程序第一版：界面部分，旨在学习javaGUI编程和窗体的切换，事件的处理，代码量大约500-600行
+具体任务：
+	1、设计聊天室需要的窗体：
+	客户端：登陆窗体：login.java,
+	               注册窗体：regist.java
+	               聊天室：chatRoom.java
+	服务器端：    服务器监控窗口：ServerFrame.java           
+	2、项目设计：客户端包：com.client
+	                        服务器端包：com.server
+	                        
+	3、功能与界面具体设计：
+
+-------------------------------------------------------------
+聊天室程序第2版：
+服务器实现，旨在学习javaGUI编程和窗体的切换，事件的处理，代码量大约500-600行
+具体任务
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1  使用多线程：
+   class A Extends Thread{
+     public A(){
+     	this.start();
+     }
+   	public void run(){
+   
+   	}   
+   }
+ ----------------------------  
+   main(){
+   		A a1=new A();
+       B b1=new B();
+   }
+   -------------------------------
+  2   使用多线程
+   class B extends JFrame implements Runnable{
+    public B(){
+      Thread t=new Thread(this);
+      t.start();
+    }    
+    public void run(){
+   
+   	}      
+   }
+  -------------------
+    class BB extends JFrame implements Runnable{
+    public B(){
+      Thread t=new Thread(this);
+      t.start();
+    }    
+    public void run(){
+   
+   	}      
+   }
+  
